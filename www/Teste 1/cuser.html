@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um site para adoção e resgate de animais perdidos.">
+    <title>Cadastre-se - Patinhas Felizes</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="img/logo.png" href="index.html">
+
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="cuser.html">Cadastre-se</a>
+            <a class="cabecalho-menu-item" href="cpet.html">Cadastre seu PET</a>
+            <a class="cabecalho-menu-item" href="cpetp.html">Procura por PET</a>
+            <a class="cabecalho-menu-item" href="cong.html">Cadastre sua ONG</a>
+            <a class="cabecalho-menu-item" href="login.html">Login</a>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+
+
+
+            <form name="meuForm" action="destino.php" method="post" id="formulario">
+                <div class="box">
+                    <h1 class="conteudo-principal-escrito-titulo">Formulario de Contato : <br>Cadastre-se</h1>
+                    <img class="imagem-formulario" src="img/cadastre-se.png">
+
+                    <label>
+                        <span>CPF:</span>
+                        <input type="text" class="input_text" name="cpf" id="subject" maxlength="14"/>
+                    </label>
+
+                    <label>
+                        <span>Nome:</span>
+                        <input type="text" class="input_text" name="nome" id="name" maxlength="100"/>
+
+                    </label>
+
+                    <label>
+                        <span>Email:</span>
+                        <input type="text" class="input_text" name="email" id="email" maxlength="150"/>
+                    </label>
+
+                    <label>
+                        <span>Telefone:</span>
+                        <input type="text" class="input_text" name="telefone" id="subject" maxlength="14"/>
+                    </label>
+
+                    <label>
+                        <span>Endereço:</span>
+                        <input type="text" class="input_text" name="endereco" id="subject" maxlength="180"/>
+                    </label>
+
+                    <label>
+                        <span>Senha:</span>
+                        <input type="text" class="input_text" name="senha" id="subject" maxlength="30"/>
+
+                        <input type="submit" class="conteudo-principal-escrito-botao" name="cadastrar" value="Cadastrar" />
+                    </label>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
